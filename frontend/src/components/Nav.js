@@ -1,5 +1,5 @@
 import {NavLink} from 'react-router-dom'
-const tabs = ['home', 'about', 'photos']
+const tabs = ['home', 'about', 'photos', 'contact']
 
 const Nav = () => {
     return (
