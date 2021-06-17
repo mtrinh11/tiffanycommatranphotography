@@ -1,19 +1,27 @@
 import {Switch, Route} from 'react-router-dom'
 import Home from './Home'
-import Photos from './Photos'
+import Upstate from './Photos/Upstatenewyork'
 import About from './About'
 import Contact from './Contact'
+import Bigbear from './Photos/Bigbear'
+import Delmar from './Photos/Delmar'
+import Misc from './Photos/Misc'
+import Portland from './Photos/Portland'
+import Sanmarino from './Photos/Sanmarino'
+import Sf from './Photos/Sf'
+import Socal from './Photos/Socal'
 
 const Router = () => {
     return (   
         <Switch>
             <Route 
-                path = "/home"
+                exact
+                path = "/"
                 component = {Home}
             />
             <Route 
-                path = "/photos"
-                component = {Photos}
+                path = "/upstatenewyork"
+                component = {Upstate}
             />
             <Route 
                 path = "/about"
@@ -23,6 +31,34 @@ const Router = () => {
                 path = "/contact"
                 component = {Contact}
             />
+            <Route 
+                path = "/bigbear"
+                component = {Bigbear}
+            />
+            <Route 
+                path = "/sanmarino"
+                component = {Sanmarino}
+            />  
+            <Route 
+                path = "/sf"
+                component = {Sf}
+            />  
+            <Route 
+                path = "/delmar"
+                component = {Delmar}
+            />  
+            <Route 
+                path = "/socal"
+                component = {Socal}
+            />  
+            <Route 
+                path = "/portland"
+                component = {Portland}
+            />  
+            <Route 
+                path = "/misc"
+                component = {Misc}
+            />  
         </Switch>
     )
 }
