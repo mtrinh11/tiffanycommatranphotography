@@ -22,7 +22,6 @@ const Bigbear = () => {
             ))}
             </div>
         </div>
-        
     )
 }
 

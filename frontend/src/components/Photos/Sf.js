@@ -22,13 +22,6 @@ const Sf = () => {
             ))}
             </div>
         </div>
-        // <div style={{marginLeft: '30px'}}>
-            // <h1>San Francisco, California</h1>
-            // <p>March 2020</p>
-            // <p>unedited 35mm film (Fujifilm Superia Xtra 400)</p>
-            // <p>Minolta XG-A</p>
-            // <p>50mm lens</p>
-        // </div>
     )
 }
 
